@@ -56,6 +56,8 @@ function chatStripe(isAi, value, uniqueId) {
 `;
 }
 
+// handle submit
+
 const handleSubmit = async (e) => {
   e.preventDefault();
 
