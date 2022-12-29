@@ -56,6 +56,7 @@ function chatStripe(isAi, value, uniqueId) {
 `;
 }
 
+console.log(import.meta.env.VITE_SERVER_URL);
 // handle submit
 
 const handleSubmit = async (e) => {
